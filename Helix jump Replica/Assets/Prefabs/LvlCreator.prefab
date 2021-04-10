@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8607003429013204218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8607003429013204216}
+  - component: {fileID: 8607003429013204219}
+  - component: {fileID: 8607003429013204217}
+  m_Layer: 0
+  m_Name: LvlCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8607003429013204216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607003429013204218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8607003429013204219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607003429013204218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0714ef1b0a32c4d42a553ff7068ea547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lvlDifficulty: 0
+  difficultyThreshold: 0.5
+  wallsThreshold: 0.1
+  rotationTreshold: 0.15
+  chanceOfAdditionalObstacle: 10
+  spaceBetweenFloors: 7
+  numberOfFloors: 5
+  platforms:
+  - {fileID: 9005926789838440033, guid: 91e5d334d3f2e334996a46e0c54b5815, type: 3}
+  - {fileID: 6087134279593097800, guid: b1465602550de8142a860c441ec6ebb6, type: 3}
+  - {fileID: 6904699263811094535, guid: 2a54b0deb78449b41ba89e8121d0d372, type: 3}
+  - {fileID: 2618806641847903856, guid: d1892e3c5e4a8d64f908d91133596b8d, type: 3}
+  - {fileID: 4046818512893121590, guid: 64985850694a1ea46b92f58f5183eaf6, type: 3}
+  - {fileID: 6254962800910487892, guid: dfbf5b5ddf99e3748af2d352cf42a264, type: 3}
+  - {fileID: 7717465645808951008, guid: 0ad6c51425735cc4e8adcb5969071c0e, type: 3}
+  - {fileID: 3876266707504914286, guid: 6a64e3eab9c231d4cabc6bde39e932d7, type: 3}
+  - {fileID: 6059978247666278912, guid: a5feaab693e1a054e9b8b9c835c73569, type: 3}
+  - {fileID: 1895646077013253153, guid: 31b99416f3e5eb640afa4c5788b6b83a, type: 3}
+--- !u!114 &8607003429013204217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607003429013204218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3001136ce0226d14f89fa2a5a40ac969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
